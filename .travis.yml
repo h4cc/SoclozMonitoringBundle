@@ -22,6 +22,7 @@ matrix:
 before_script:
   - pecl -q install xhprof-beta && echo "extension=xhprof.so" >> `php --ini | grep "Loaded Configuration" | sed -e "s|.*:\s*||"`
   - composer require symfony/framework-bundle:${SYMFONY_VERSION} --no-update
+  - composer require symfony/browser-kit:${SYMFONY_VERSION} --no-update
   - composer update --prefer-dist --no-interaction
 
 script: phpunit
