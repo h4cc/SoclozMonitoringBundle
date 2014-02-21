@@ -1,7 +1,7 @@
 SoclozMonitoringBundle
 ======================
 
-[![Build Status](https://secure.travis-ci.org/SoCloz/SoclozMonitoringBundle.png?branch=master)](http://travis-ci.org/SoCloz/SoclozMonitoringBundle)
+[![Build Status](https://travis-ci.org/h4cc/SoclozMonitoringBundle.png?branch=master)](https://travis-ci.org/h4cc/SoclozMonitoringBundle)
 
 A monitoring Symfony2 bundle for production servers that :
 
