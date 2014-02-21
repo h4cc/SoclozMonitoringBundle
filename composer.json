@@ -11,8 +11,9 @@
             "homepage": "http://www.socloz.fr"
         }
     ],
-    "require": {
-        "symfony/framework-bundle": "~2.1"
+    "require-dev": {
+        "symfony/framework-bundle": "~2.1",
+        "symfony/browser-kit": "~2.1"
     },
     "autoload": {
         "psr-0": { "Socloz\\MonitoringBundle": "" }
